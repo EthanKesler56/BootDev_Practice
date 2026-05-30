@@ -1,0 +1,7 @@
+Complete the Wizard class.
+
+Wizard should set up the hero's name and health.
+Set a private mana variable that can be passed in as a third parameter to the constructor.
+Create a cast method that takes a target hero as input.
+If there is less than 25 mana left, raise a not enough mana exception.
+Otherwise, remove 25 mana from the wizard and deal 25 damage to the target hero.
